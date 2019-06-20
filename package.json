@@ -47,8 +47,36 @@
     "config": {
       "gpios": [
         {
+          "pin": 14,
+          "name": "valve1-gpio14",
+          "direction": "out",
+          "value": 0,
+          "activeLow": false
+        },
+        {
+          "pin": 15,
+          "name": "valve2-gpio15",
+          "direction": "out",
+          "value": 0,
+          "activeLow": false
+        },
+        {
           "pin": 18,
-          "name": "led",
+          "name": "valve3-gpio18",
+          "direction": "out",
+          "value": 0,
+          "activeLow": false
+        },
+        {
+          "pin": 23,
+          "name": "valve4-gpio23",
+          "direction": "out",
+          "value": 0,
+          "activeLow": false
+        },
+        {
+          "pin": 24,
+          "name": "valve5-gpio24",
           "direction": "out",
           "value": 0,
           "activeLow": false
